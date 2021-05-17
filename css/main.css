@@ -215,7 +215,12 @@ main{
 #logout{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding-left: 5rem;
+}
+
+#logout div{
+    width: 100%;
 }
 
 #info{
@@ -403,8 +408,8 @@ i:hover{
 }
 
 .post-image img{
-    max-width: 700px;
-    max-height: 900px;
+    max-width: 80%;
+    max-height: 80vh;
 }
 
 .post-foot{
@@ -469,3 +474,30 @@ i:hover{
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1400px) {
+    main{
+        grid-template-columns: 0.1fr 0.85fr 0.1fr;
+        column-gap: 0.5rem;
+    }
+
+    .tab-title, #user-data, .sug-user-button, .sug-user-data, .see-more, .sug-topic-button, .sug-topic-data, #info, .notif-cant{
+        display: none;
+    }
+
+    #user-profile, #tabs, .tab-container, #logout, .sug-user, .sug-topic{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .notif-cant{
+        position: relative;
+        margin: 0;
+        z-index: 1;
+    }
+
+    .sug-title{
+        font-size: 10pt;
+        padding: 0 0.5rem;
+    }
+
+  }
