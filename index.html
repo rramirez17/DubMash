@@ -31,7 +31,7 @@
                     <ul>
                         <li class="tab-container active-tab"><i class="fas fa-home"></i> <h4 class="tab-title"><a href="">Inicio</a></h4></li>
                         <li class="tab-container"><i class="fas fa-compass"></i> <h4 class="tab-title"><a href="">Explorar</a></h4></li>
-                        <li class="tab-container"><i class="fas fa-bookmark"></i> <h4 class="tab-title"><a href="">Guardados</a></h4></li>
+                        <li class="tab-container"><a href="busqueda.html"><i class="fas fa-bookmark"></i></a> <h4 class="tab-title"><a href="">Guardados</a></h4></li>
                         <li class="tab-container"><i class="fas fa-bell"></i> <h4 class="tab-title"><a href="">Notificaciones</a></h4> <div class="notif-cant">4</div></li>
                         <li class="tab-container"><i class="fas fa-cog"></i> <h4 class="tab-title"><a href="">Configuracion</a></h4></li>
                     </ul>
@@ -132,9 +132,9 @@
                         <p>22 likes  •  8 comentarios</p>
                     </div>
                     <div class="post-buttons">
-                        <a href=""><i class="far fa-heart"></i></a>
-                        <a href=""><i class="far fa-comment"></i></a>
-                        <a href=""><i class="far fa-bookmark"></i></a>
+                        <i onclick="myFunction(this)" class="far fa-heart"></i>
+                        <i id = "comment" class="far fa-comment"></i>
+                        <i onclick="myFunction(this)" id= "safe" class="far fa-bookmark"></i>
                     </div>
                 </div>
             </div>
@@ -168,9 +168,9 @@
                         <p>22 likes  •  8 comentarios</p>
                     </div>
                     <div class="post-buttons">
-                        <a href=""><i class="far fa-heart"></i></a>
-                        <a href=""><i class="far fa-comment"></i></a>
-                        <a href=""><i class="far fa-bookmark"></i></a>
+                        <i onclick="myFunction(this)" class="far fa-heart"></i>
+                        <i id = "comment" class="far fa-comment"></i>
+                        <i onclick="myFunction(this)" id= "safe" class="far fa-bookmark"></i>
                     </div>
                 </div>
             </div>
@@ -204,9 +204,9 @@
                         <p>22 likes  •  8 comentarios</p>
                     </div>
                     <div class="post-buttons">
-                        <a href=""><i class="far fa-heart"></i></a>
-                        <a href=""><i class="far fa-comment"></i></a>
-                        <a href=""><i class="far fa-bookmark"></i></a>
+                        <i onclick="myFunction(this)" class="far fa-heart"></i>
+                        <i id = "comment" class="far fa-comment"></i>
+                        <i onclick="myFunction(this)" id= "safe" class="far fa-bookmark"></i>
                     </div>
                 </div>
             </div>
@@ -290,7 +290,7 @@
                                 <img src="https://via.placeholder.com/150" alt="">
                             </div>
                             <div class="sug-topic-data">
-                                <h3>Topic</h3>
+                                <h3>Tema</h3>
                             </div>
                             <div class="sug-topic-button">
                                 <i class="fas fa-star"></i>
@@ -301,7 +301,7 @@
                                 <img src="https://via.placeholder.com/150" alt="">
                             </div>
                             <div class="sug-topic-data">
-                                <h3>Topic</h3>
+                                <h3>Tema</h3>
                             </div>
                             <div class="sug-topic-button">
                                 <i class="fas fa-star"></i>
@@ -312,7 +312,7 @@
                                 <img src="https://via.placeholder.com/150" alt="">
                             </div>
                             <div class="sug-topic-data">
-                                <h3>Topic</h3>
+                                <h3>Tema</h3>
                             </div>
                             <div class="sug-topic-button">
                                 <i class="fas fa-star"></i>
@@ -323,7 +323,7 @@
                                 <img src="https://via.placeholder.com/150" alt="">
                             </div>
                             <div class="sug-topic-data">
-                                <h3>Topic</h3>
+                                <h3>Tema</h3>
                             </div>
                             <div class="sug-topic-button">
                                 <i class="fas fa-star"></i>
@@ -345,8 +345,8 @@
                     <img src="https://via.placeholder.com/800x900" alt="">
                     
                     <div class="post-buttons">
-                        <a href=""><i class="far fa-heart"></i></a>
-                        <a href=""><i class="far fa-bookmark"></i></a>
+                        <i onclick="myFunction(this)" class="far fa-heart"></i>
+                        <i onclick="myFunction(this)" id= "safe" class="far fa-bookmark"></i>
                     </div>
                 </div>
                 <div class="modal-data">
@@ -359,10 +359,10 @@
                         </div>
                         <div class="modal-description">
                             <div class="modal-title">
-                                <h2 id="BusquedaTitle">Post Title</h2>
+                                <h2 id="BusquedaTitle">Título del meme </h2>
                             </div>
                             <div class="modal-tags">
-                                <p><a href="">Topic</a> <a href="">Topic</a> <a href="">Topic</a></p>
+                                <p><a href="">Tema</a> <a href="">Tema</a> <a href="">Tema</a></p>
                             </div>
                         </div>
                     </div>
