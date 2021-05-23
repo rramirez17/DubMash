@@ -4,7 +4,7 @@ const closeBtn = document.getElementsByClassName('close')[0]
 
 for (let i = 0; i < images.length; i++) {
     images[i].onclick = () =>{
-        titulopost=document.getElementById("BusquedaTitle").textContent="Título del Post"
+        titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
         overlay.classList.toggle('hidden')
         document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
     }
@@ -15,6 +15,11 @@ closeBtn.onclick = () =>{
     etElementsByTagName('body')[0].classList.toggle('lockScroll')
 }
 
+comment.onclick =() =>{
+    titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
+    overlay.classList.toggle('hidden')
+    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
+}   
 
 query1.onclick =() =>{
     titulopost=document.getElementById("BusquedaTitle").textContent=document.getElementById('textobusqueda').value
@@ -27,3 +32,7 @@ closeBtn.onclick = () =>{
     overlay.classList.toggle('hidden')
     document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
 }
+
+function myFunction(x) {
+    x.classList.toggle("fas");
+  }
