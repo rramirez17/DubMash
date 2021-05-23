@@ -36,3 +36,7 @@ closeBtn.onclick = () =>{
 function myFunction(x) {
     x.classList.toggle("fas");
   }
+
+function Buscar(x) {
+    document.getElementById("section-title-h1").textContent= x
+}

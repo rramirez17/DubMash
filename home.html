@@ -16,7 +16,7 @@
             <div class="inner-l">
                 <div id="logo">
                     <a href="">
-                        <img src="logosimple.png" alt="Logo de DubMash">
+                        <img src="https://github.com/rramirez17/DubMash/blob/main/MicrosoftTeams-image%20(1).png?raw=true" alt="">
                     </a>
                 </div>
                 <div id="user-profile">
@@ -30,9 +30,9 @@
                 </div>
                 <div id="tabs">
                     <ul>
-                        <li class="tab-container "><a href="home.html"> <i class="fas fa-home"></i></a> <h4 class="tab-title">Inicio</a></h4></li>
-                        <li class="tab-container active-tab"><i class="fas fa-compass"></i> <h4 class="tab-title"><a href="busqueda.html">Explorar</a></h4></li>
-                        <li class="tab-container"><a href=""><i class="fas fa-bookmark"></i></a> <h4 class="tab-title">Guardados</a></h4></li>
+                        <li class="tab-container active-tab"><i class="fas fa-home"></i> <h4 class="tab-title"><a href="">Inicio</a></h4></li>
+                        <li class="tab-container"><a href="busqueda.html"><i class="fas fa-compass"></i></a> <h4 class="tab-title">Explorar</h4></li>
+                        <li class="tab-container"><a href=""><i class="fas fa-bookmark"></i></a> <h4 class="tab-title"><a href="">Guardados</a></h4></li>
                         <li class="tab-container"><i class="fas fa-bell"></i> <h4 class="tab-title"><a href="">Notificaciones</a></h4> <div class="notif-cant">4</div></li>
                         <li class="tab-container"><i class="fas fa-cog"></i> <h4 class="tab-title"><a href="">Configuracion</a></h4></li>
                     </ul>
@@ -65,7 +65,7 @@
                 </button>
             </form>
             <div id="section-title">
-                <h1 id="section-title-h1">Resultados de Búsqueda</h1>
+                <h1>Inicio</h1>
                 <hr>
             </div>
 
@@ -216,41 +216,126 @@
 
 
         <section id="right">
-            <h1>Búsqueda</h1>
-                <ul>Temas
-                    <li><input type="checkbox" id="T1" onclick="Buscar('Tema 1')"> Tema 1</li>
-                    <li><input type="checkbox" id="T2" onclick="Buscar('Tema 2')"> Tema 2</li>
-                    <li><input type="checkbox" id="T3" onclick="Buscar('Tema 3')"> Tema 3</li>
-                </ul>
-                <div class="separator">
-                    <hr>
-                    <div class="collapse">
-                        <i class="fas fa-chevron-down"></i>
+            <div class="inner-r">
+                <div class="suggestions">
+                    <div class="sug-title">
+                        <h1>Usuarios Sugeridos</h1>
+                    </div>
+                    <div class="sug-list">
+                        <div class="sug-user">
+                            <div class="sug-user-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-user-data">
+                                <h3>Nombre de Usuario</h3>
+                                <p>User Flair</p>
+                            </div>
+                            <div class="sug-user-button">
+                                <button>Seguir</button>
+                            </div>
+                        </div>
+                        <div class="sug-user">
+                            <div class="sug-user-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-user-data">
+                                <h3>Nombre de Usuario</h3>
+                                <p>User Flair</p>
+                            </div>
+                            <div class="sug-user-button">
+                                <button>Seguir</button>
+                            </div>
+                        </div>
+                        <div class="sug-user">
+                            <div class="sug-user-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-user-data">
+                                <h3>Nombre de Usuario</h3>
+                                <p>User Flair</p>
+                            </div>
+                            <div class="sug-user-button">
+                                <button>Seguir</button>
+                            </div>
+                        </div>
+                        <div class="sug-user">
+                            <div class="sug-user-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-user-data">
+                                <h3>Nombre de Usuario</h3>
+                                <p>User Flair</p>
+                            </div>
+                            <div class="sug-user-button">
+                                <button>Seguir</button>
+                            </div>
+                        </div>
+                        <div class="see-more">
+                            <a href="">Ver mas...</a>
+                        </div>
                     </div>
                 </div>
-                <ul>Ubicación
-                    <li><input type="checkbox" id="U1" onclick="Buscar('Ubicación Actual')"> Ubicación actual </li>
-                    <li><input type="checkbox" name="U2" id="" onclick="Buscar('Ubicación Preferida')"><Input type="text" class="UbicacionPreferida" placeholder="Ubicación preferida"></li>
-                </ul>
                 <div class="separator">
-                    <hr>
-                    <div class="collapse">
-                        <i class="fas fa-chevron-down"></i>
+                    <div class="collapse-2">
+                        <i class="fas fa-chevron-right"></i>
                     </div>
-                </div>
-                <ul>Social
-                    <li><input type="checkbox" id="S1" onclick="Buscar('Comunidad')"> Comunidades</li>
-                    <li><input type="checkbox" id="S2" onclick="Buscar('Grupos')"> Grupos</li>
-                    <li><input type="checkbox" id="S3" onclick="Buscar('Amigos')"> Amigos</li>
-                    <li><input type="checkbox" id="S4" onclick="Buscar('Seguidores')"> Seguidores</li>
-                </ul>
-                <div class="separator">
                     <hr>
-                    <div class="collapse">
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
                 </div>
-                <ul><input type="checkbox" id="" onclick="Buscar('Resultados de Búsqueda')"> Restablecer</ul>
+                <div class="suggestions">
+                   <div class="sug-title">
+                        <h1>Temas Populares</h1>
+                   </div>
+                   <div class="sug-list">
+                        <div class="sug-topic">
+                            <div class="sug-topic-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-topic-data">
+                                <h3>Tema</h3>
+                            </div>
+                            <div class="sug-topic-button">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="sug-topic">
+                            <div class="sug-topic-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-topic-data">
+                                <h3>Tema</h3>
+                            </div>
+                            <div class="sug-topic-button">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="sug-topic">
+                            <div class="sug-topic-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-topic-data">
+                                <h3>Tema</h3>
+                            </div>
+                            <div class="sug-topic-button">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="sug-topic">
+                            <div class="sug-topic-picture">
+                                <img src="https://via.placeholder.com/150" alt="">
+                            </div>
+                            <div class="sug-topic-data">
+                                <h3>Tema</h3>
+                            </div>
+                            <div class="sug-topic-button">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="see-more">
+                            <a href="">Ver mas...</a>
+                        </div>
+                   </div> 
+                </div>
+            </div>
         </section>
     </main>
     <article class="overlay hidden">

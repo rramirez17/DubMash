@@ -23,6 +23,8 @@ a, p, i{
     transition: 0.25s;
 }
 
+
+
 a:hover{
     color: #000;
 }
@@ -86,7 +88,29 @@ main{
     box-shadow: 2px 0px 11px 0px rgba(0,0,0,0.6);
     background-color: #fff;
     min-height: 100%;
+    padding:3%;
 }
+
+#right ul{
+    font-size: large;
+    font-weight: bold;
+}
+
+#right ul li{
+    font-size: medium;
+    font-weight: normal;
+}
+
+#UbicacionPreferida{
+    width: fit-content;
+    font-size: 8pt;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 1px solid #c8c8c8;
+    align-items: center;
+    border-radius: 16px;
+}
+
 
 .inner-r{
     display: grid;
@@ -109,6 +133,8 @@ main{
 #logo img{
     max-width: 40%;
     align-self: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #user-profile{
